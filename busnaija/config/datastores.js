@@ -48,8 +48,9 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+   //Configured application to use sails-postgresql
+    adapter: 'sails-postgresql',
+    url: 'postgresql://busnaija:busnaija1234@localhost:5432/busnaija',
 
   },
 
